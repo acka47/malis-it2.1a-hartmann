@@ -2,6 +2,6 @@
   "$id": "context-schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "JSON-LD Context",
-  "enum": ["http://lobid.org/gnd/context.jsonld"],
+  "const": "http://lobid.org/gnd/context.jsonld",
   "description": "Das Schema für das @context-Feld"
 }
