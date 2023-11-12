@@ -35,5 +35,5 @@
       "$ref": "geographicAreaCode.json"
     }
   },
-  "required": ["id", "gndIdentifier", "type", "preferredName", "professionOrOccupation", "gender", "geographicAreaCode"]
+  "required": ["@context", "id", "gndIdentifier", "type", "preferredName"]
 }
