@@ -4,5 +4,5 @@
   "title": "URI",
   "description": "Das Schema für das id-Feld, d.h. die URI der Ressource",
   "type": "string",
-  "format": "uri"
+  "pattern": "https://d-nb.info/gnd/[0-9]{9,10}|https://d-nb.info/gnd/[0-9]{8}X"
 }
